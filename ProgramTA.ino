@@ -117,7 +117,7 @@ void setup() {
   }
   Serial.println("Initialization done.");
 
-  // Open the file for reading
+  // buka file di micro-SD Card
   File myFile = SD.open("PARAME~1.txt");
   if (myFile) {
     Serial.println("PARAME~1.txt");
